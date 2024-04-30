@@ -1,0 +1,11 @@
+-- execute this on main account. --
+game.Players.LocalPlayer.Character:WaitForChild("GRABBING_CONSTRAINT")
+game.Players.LocalPlayer.Character:FindFirstChild("GRABBING_CONSTRAINT"):Destroy()
+game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand = false
+game:GetService("RunService"):BindToRenderStep(
+    "fr",
+    0,
+    function()
+        game.Players.LocalPlayer.Character.Humanoid.Health = 100
+    end
+)
