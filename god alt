@@ -1,0 +1,207 @@
+-- This is what you need to execute on alt account --
+
+getgenv().Godmode = "" -- put user you want to godmode (they need to have godmode) + please put the full user in means with caps nad everything.
+
+assert(getrawmetatable)
+
+gmt = getrawmetatable(game)
+
+setreadonly(gmt, false)
+
+old = gmt.__namecall
+
+gmt.__namecall =
+
+newcclosure(
+
+function(self, ...)
+
+local args = {...}
+
+if tostring(args[1]) == "BreathingHAMON" then
+
+return
+
+elseif tostring(args[1]) == "TeleportDetect" then
+
+return
+
+elseif tostring(args[1]) == "CHECKER_1" then
+
+return
+
+elseif tostring(args[1]) == "CHECKER" then
+
+return
+
+elseif tostring(args[1]) == "GUI_CHECK" then
+
+return
+
+elseif tostring(args[1]) == "OneMoreTime" then
+
+return
+
+elseif tostring(args[1]) == "checkingSPEED" then
+
+return
+
+elseif tostring(args[1]) == "BANREMOTE" then
+
+return
+
+elseif tostring(args[1]) == "PERMAIDBAN" then
+
+return
+
+elseif tostring(args[1]) == "KICKREMOTE" then
+
+return
+
+elseif tostring(args[1]) == "BR_KICKPC" then
+
+return
+
+end
+
+return old(self, ...)
+
+end
+
+)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 100, 0)
+
+wait(0.5)
+
+game.Players:WaitForChild(getgenv().Godmode)
+
+game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame =
+
+game.Players:FindFirstChild(getgenv().Godmode).Character:FindFirstChild("HumanoidRootPart").CFrame *
+
+CFrame.new(0, 0, -3)
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(
+
+"Knock me and grab me please!",
+
+"All"
+
+)
+
+game.Players.LocalPlayer.Character:WaitForChild("GRABBING_CONSTRAINT")
+
+game:GetService("Workspace").FallenPartsDestroyHeight = -500
+
+game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 1e3
+
+wait(0.2)
+
+game.Players.LocalPlayer.Character.Humanoid.RigType = "R6"
+
+wait(0.5)
+
+game:GetService("RunService"):BindToRenderStep(
+
+"fe",
+
+0,
+
+function()
+
+if game.Players.LocalPlayer.Backpack:FindFirstChild("Combat") then
+
+game.Players.LocalPlayer.Backpack:FindFirstChild("Combat").Parent = game.Players.LocalPlayer.Character
+
+end
+
+game.Players.LocalPlayer.Character:FindFirstChild("Combat"):Activate()
+
+game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame =
+
+game.Players:FindFirstChild(getgenv().Godmode).Character:FindFirstChild("HumanoidRootPart").CFrame *
+
+CFrame.new(0, 0, 3)
+
+end
+
+)
+
+repeat
+
+task.wait()
+
+until game.Players:FindFirstChild(getgenv().Godmode).Character:FindFirstChild("BodyEffects")["K.O"].Value == true
+
+game:GetService("RunService"):UnbindFromRenderStep("fe")
+
+task.wait(0.5)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -450, 0)
+
+for i, v in pairs(game.Players.LocalPlayer.Character:FindFirstChild("RagdollConstraints"):GetChildren()) do
+
+if v:IsA("BallSocketConstraint") then
+
+v.Enabled = false
+
+end
+
+end
+
+game.Players.LocalPlayer.Character:FindFirstChild("RagdollConstraints").LTUP.Enabled = true
+
+game:GetService("RunService"):BindToRenderStep(
+
+"fe",
+
+0,
+
+function()
+
+game.Players.LocalPlayer.Character:FindFirstChild("LowerTorso").CFrame =
+
+CFrame.new(
+
+game.Players[getgenv().Godmode].Character.UpperTorso.Position.X,
+
+game.Players[getgenv().Godmode].Character.UpperTorso.Position.Y + 0.4,
+
+game.Players[getgenv().Godmode].Character.UpperTorso.Position.Z
+
+) * CFrame.new(0, 0, 0)
+
+end
+
+)
+
+spawn(
+
+function()
+
+while wait(0.5) do
+
+if game.Players[getgenv().Godmode].Character:FindFirstChild("GRABBING_CONSTRAINT") then
+
+game:GetService("RunService"):UnbindFromRenderStep("fe")
+
+break
+
+else
+
+game:GetService("ReplicatedStorage").MainEvent:FireServer("Grabbing", false)
+
+end
+
+end
+
+end
+
+)
+
+game.Players[getgenv().Godmode].Character:WaitForChild("GRABBING_CONSTRAINT")
+
+task.wait(0.5)
+
+game.Players.LocalPlayer:Kick("Success! you can rejoin now and use stand etc.")
