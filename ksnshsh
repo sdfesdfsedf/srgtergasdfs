@@ -1,0 +1,338 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))() --This Will Load The Script Code
+local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
+  local Window = OrionLib:MakeWindow({
+		Name = "EXAMPLE HOW TO MAKE A KEY SYSTEM FOR MOBILE",
+		HidePremium = false,
+		SaveConfig = true,
+		ConfigFolder = "OrionTest",
+        IntroText = "Loading Script..."       
+}) --This Will Load The Script Hub
+function MakeScriptHub()
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create("18 Ozii | vloxs__24178 Hub","Enabled")
+-- tabs --
+local tab1 = window:CreateTab("SilentAim")
+tab1:CreateInfo("Made By 18Ozii | vloxs__24178")
+tab1:CreateInfo("Dont Try To Skid My Script Nigger")
+tab1:CreateInfo("Join Our Discord Also! :")
+tab1:CreateInfo("https://discord.com/invite/TyTbXCGe")
+-- buttons --
+tab1:CreateButton("GoldenArrow [0 - 50 Ping]", function()
+-- GoldenArrow [ 1 - 50 Ping ] --
+loadstring(game:HttpGet("https://pastefy.app/3skX6d4N/raw"))()
+end)
+tab1:CreateButton("ZoneV1 [50 - 100 Ping]", function()
+-- ZoneV1 [ 50 - 100 Ping ] --
+loadstring(game:HttpGet("https://pastefy.app/c5q0sTJA/raw"))()
+end)
+tab1:CreateButton("PrivateAshura [100 - 150 Ping]", function()
+-- Private Ashura [ 100 - 150 Ping ]
+loadstring(game:HttpGet("https://pastefy.app/FwHyaP0B/raw"))()
+end)
+tab1:CreateButton("Koi.cc [150 - 200 Ping]", function()
+-- Koi.cc [ 150 - 200 Ping ] --
+loadstring(game:HttpGet("https://pastefy.app/CTd82UJh/raw"))()
+end)
+tab1:CreateButton("Vorah666 [200 - 250 Ping]-", function()
+-- Vorah666 [ 200 - 250 Ping ]
+loadstring(game:HttpGet("https://pastefy.app/tlnxVjDI/raw"))()
+end)
+tab1:CreateButton("Grave999 [250 - 300 Ping]", function()
+-- Grave99 [ 250 - 300 Ping ]
+loadstring(game:HttpGet("https://pastefy.app/pTgdQD11/raw"))()
+end)
+tab1:CreateButton("Vanquish [350 - 400 Ping]", function()
+-- Vanquish [ 350 - 400 ]
+loadstring(game:HttpGet("https://pastefy.app/LKsXS8L3/raw"))()
+end)
+tab1:CreateButton("KalOp [450 - 500 Ping]", function()
+-- AceZen0 [ 400 - 450 ]
+loadstring(game:HttpGet("https://pastefy.app/qtK63je9/raw"))()
+end)
+tab1:CreateInfo("Movable Silent Aim | Best For NonShiftlock")
+tab1:CreateInfo("Execute Your Script First Before Executing This")
+tab1:CreateButton("Movable Silent aim [5 - 200 Ping]", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9085Bsim"))()
+end)
+tab1:CreateButton("Movable Silent aim [Aim Accuracy]", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9085Bsim"))()
+end)
+tab1:CreateButton("Movable Silent aim [20 - 200 Ping Tapped]", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ywhqZBtU"))()
+end)
+tab1:CreateButton("Movable Silent aim [Auto Aim ] [Aimlock]", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jhvSuaDR"))()
+end)
+local tab1 = window:CreateTab("AimLock")
+tab1:CreateButton("Blazed.lol", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/HAFDL1Y3"))()
+end)
+tab1:CreateButton("FrozenHub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FrozenScripts/frozenhub/main/ios%20lock", true))()
+end)
+tab1:CreateButton("RyzzChip", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))()
+end)
+tab1:CreateButton("Aura X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VloxsGG/VloxsGG/c6b267fc0698a5afbd014a4ab1077d93866f8910/Aura%20X%20Leaked%20Updated%20Version"))()
+end)
+tab1:CreateButton("Xenon.lua", function()
+loadstring(game:HttpGet("https://pastefy.app/Quq3bAZf/raw"))()
+end)
+tab1:CreateButton("TriggerBotV2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fyoech/Fyoech/c744bd51df4a4f08b96dab27d93daa964f601aaa/Script%20Test"))()
+end)
+local tab1 = window:CreateTab("CamLock")
+tab1:CreateButton("Lock", function()
+end)
+local tab1 = window:CreateTab("AntiLock")
+tab1:CreateButton("SkirbsWare", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+end)
+tab1:CreateButton("FarzardAnti", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/trAP4tgx"))()
+end)
+tab1:CreateButton("JumpableAnti", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Utpxen9U"))()
+end)
+tab1:CreateButton("xyz anti", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PXuM5bLP"))()
+end)
+tab1:CreateButton("Underground Anti", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iqGRzMGZ"))()
+end)
+tab1:CreateButton("BlatantAnti", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/a2UbTrV7"))()
+end)
+local tab1 = window:CreateTab("Resolver[Anti Anti-Lock")
+tab1:CreateButton("Silent Aim Resolver", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ZWnz9e2R"))()
+end)
+tab1:CreateButton("Desync Resolver", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iGdNydui"))()
+end)
+tab1:CreateButton("StellarResolver", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/pQT4Db0d"))()
+end)
+tab1:CreateButton("DotResolver/Aimlock/ToolLock", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XB9ApFAD"))()
+end)
+tab1:CreateButton("UniversalResolver", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Fh19NdJv"))()
+end)
+tab1:CreateButton("Resolver", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4k0zd0pV"))()
+end)
+local tab1 = window:CreateTab("Leaked")
+tab1:CreateButton("Blazing Mobile", function()
+loadstring(game:HttpGet("https://rentry.co/efz52g6p/raw",true))()
+end)
+tab1:CreateButton("Lock.cc ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Lock-cc-gui/main/Lock%20cc%20gui",true))()
+end)
+tab1:CreateButton("MoonlightLib", function()
+loadstring(game:HttpGet("https://rentry.co/5z44a2t7/raw", true))()
+end)
+tab1:CreateButton("MidnightLib", function()
+loadstring(game:HttpGet("https://pastefy.app/LYpIKt51"))()
+end)
+tab1:CreateButton("RubyWTF V1", function()
+loadstring(game:HttpGet("https://rentry.co/pvktggon/raw", true))()
+end)
+tab1:CreateButton("FearlassImperialV3", function()
+loadstring(game:HttpGet("https://rentry.co/qdp9ngpr/raw", true))()
+end)
+tab1:CreateButton("Aura X Remake [BETA]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
+end)
+local tab1 = window:CreateTab("UsefullThing")
+tab1:CreateButton("FakeMacro Shiftlock", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Alt/alt/PermShiftlockAlt'))()
+end)
+tab1:CreateButton("FakeMacroBullet", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vHZKcVMr"))()
+end)
+tab1:CreateLabel("PermanentTool")
+tab1:CreateButton("C Tool", function()
+getgenv().keytoclick = "C"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = ".gg/productions";
+Title = "server got termed join up";
+Duration = 10;
+})
+local player = game.Players.LocalPlayer
+local function connectCharacterAdded()
+    player.CharacterAdded:Connect(onCharacterAdded)
+end
+connectCharacterAdded()
+player.CharacterRemoving:Connect(function()
+    tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+end)
+tab1:CreateButton("Q Tool", function()
+getgenv().keytoclick = "Q"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = ".gg/productions";
+Title = "server got termed join up";
+Duration = 10;
+})
+local player = game.Players.LocalPlayer
+local function connectCharacterAdded()
+    player.CharacterAdded:Connect(onCharacterAdded)
+end
+connectCharacterAdded()
+player.CharacterRemoving:Connect(function()
+    tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+end)
+tab1:CreateButton("V Tool", function()
+getgenv().keytoclick = "V"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = ".gg/productions";
+Title = "server got termed join up";
+Duration = 10;
+})
+local player = game.Players.LocalPlayer
+local function connectCharacterAdded()
+    player.CharacterAdded:Connect(onCharacterAdded)
+end
+connectCharacterAdded()
+player.CharacterRemoving:Connect(function()
+    tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+end)
+tab1:CreateLabel("TpWalk")
+tab1:CreateButton("TpWalkV4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Tpwalk%20V4%20%5B%20BETA%20%5D.lua", true))()
+end)
+tab1:CreateLabel("Fly")
+tab1:CreateButton("Fly", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+  tab1:CreateButton("ResolutionStretch | Best for montage", function()
+--[[
+    WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+getgenv().Resolution = {
+    [".gg/scripters"] = 0.6
+}
+local Camera = workspace.CurrentCamera
+if getgenv().gg_scripters == nil then
+    game:GetService("RunService").RenderStepped:Connect(
+        function()
+            Camera.CFrame = Camera.CFrame * CFrame.new(0, 0, 0, 1, 0, 0, 0, getgenv().Resolution[".gg/scripters"], 0, 0, 0, 1)
+        end
+    )
+end
+getgenv().gg_scripters = "Aori0001"
+end)
+local tab1 = window:CreateTab("Update")
+tab1:CreateInfo("Patch/Ver 1.4.2 [BETA] Fixed Silent Aim Pred")
+tab1:CreateInfo("Added Lion'S Silent aim")
+tab1:CreateInfo("Added Moveable Silent aim")
+tab1:CreateInfo("Added Tracer Silent Aim ")
+tab1:CreateInfo("Added UsefullThing")
+tab1:CreateInfo("Added Silent Aim Bypasser")
+tab1:CreateInfo("Added Resol Stretch Best 4 Montage ngl")         
+-- That Will Load If The Key Is Correct Here
+end
+OrionLib:MakeNotification({
+	Name = "Logged In!",
+	Content = "You need key "..Player.Name..".",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+}) --Notification
+getgenv().Key = "18OziiHubQuitLockingNigger" --Put The Correct Key Here
+getgenv().KeyInput = "string" --Require For The Key To Work
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}) --Making A Tab
+Tab:AddTextbox({
+	Name = "Key",
+	Default = "Enter Key.",
+	TextDisappear = true,
+	Callback = function(Value)
+		getgenv().KeyInput = Value
+	end	  
+}) --You Will Enter The Key Here
+Tab:AddButton({
+    Name = "Check Key",
+    Callback = function()
+        if getgenv().KeyInput == getgenv().Key then
+            OrionLib:MakeNotification({
+                Name = "Checking Key",
+                Content = "Checking The Key You Entered",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+            wait(2)
+            OrionLib:MakeNotification({
+                Name = "Correct Key!",
+                Content = "The key you entered is Correct.",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+            wait(1)
+            OrionLib:Destroy()
+            wait(.3)
+            MakeScriptHub()
+        else
+           OrionLib:MakeNotification({
+                Name = "Checking Key",
+                Content = "Checking The Key You Entered",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+            wait(2)
+            OrionLib:MakeNotification({
+                Name = "Incorrect Key!",
+                Content = "The key you entered is incorrect.",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+        end
+    end
+}) --This Will Check The Key You Entered
+Tab:AddButton({
+	Name = "Copy Key",
+	Callback = function()
+      		setclipboard("https://rentry.co/wig28yoo/raw") --This Will Copy The Link Of The Key
+  	end    
+}) 
+    
+OrionLib:Init() --Require If The Script Is Done
