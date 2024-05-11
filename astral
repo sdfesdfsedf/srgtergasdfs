@@ -127,7 +127,7 @@ getgenv().Astral = {
         ["List"] = {"[Double-Barrel SG]","[Revolver]","[TacticalShotgun]", "[Shotgun]", "[SMG]"}, -- up to 9
     },
     Macro = {
-        ["Enabled"] = true, -- If you want to use macro
+        ["Enabled"] = false, -- If you want to use macro
         ["AntiFling"] = false,
         ["Keybind"] = "q", -- // Keybind to toggle the macro
         ["Mode"] = "FirstPerson", -- // First person or third person
