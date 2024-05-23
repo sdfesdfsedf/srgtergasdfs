@@ -1,5 +1,5 @@
 getgenv().Prediction = 0.166
-getgenv().AimPart = "Head"
+getgenv().AimPart = "HumanoidRootPart"
 getgenv().Key = "C"
 getgenv().DisableKey = "P"
 
